@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+   
+}
+#nav{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 60px;
+}
+#nav-part1{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+#nav h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+#nav h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+#nav h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+#content{
+    margin-top: 20px;
+    padding: 40px 60px;
+  
+}
+#content h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+#content h1{
+    margin-top: 27px;
+    font-size: 135px;
+    line-height: 118px;
+    font-weight: 600;
+    letter-spacing: -3px;
+}
+#case{
+    padding: 40px 60px;
+    margin-top: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#case h4{
+  font-size: 20px;
+  font-weight: 550;
+}
+#case h5{
+    font-size: 20px;
+    font-weight: 550;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 1000px;
+}
+#line{
+    height: 2px;
+    width: 150px;
+    background-color: black;
+    
+}
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space space-between;
+    padding: 40px 60px;
+    gap: 60px;
+    
+}
+.elem{
+    width: 50%;
+}
+img{
+    height: 600px;
+    width: 100%;
+    border-radius: 30px;
+   background-position: center;
+    background-color: lightblue;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+.bottom i{
+    padding: 15px 30px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 45px;
+    font-weight: 550;
+}
+.bottom i:hover{
+    background-color: black;
+    color: white;
+}
+.bottom h2{
+  font-size: 30px;
+  font-weight: 550;
+  margin-bottom: 10px;
+}
+.bottom h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(60, 60, 60);
+}
